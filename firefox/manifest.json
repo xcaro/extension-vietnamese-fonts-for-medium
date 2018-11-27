@@ -1,0 +1,26 @@
+{
+	"name":"Vietnamese Fonts for Medium",
+	"version":"1.0.0",
+	"description": "Fix errors vietnamese on Medium",
+	"author":"Nhân Nè",
+	"manifest_version": 2,
+	"icons": {
+		"195":"icons/195/icon.png",
+		"128":"icons/128/icon.png"
+	},
+	"background":{
+		"scripts":[
+			"background.js"
+		]
+	},
+	"permissions":[
+		"tabs",
+		"activeTab",
+		"webRequest",
+		"webRequestBlocking",
+		"*://*/"
+	],
+	"web_accessible_resources": [
+		"assets/css/*"
+	]
+}
